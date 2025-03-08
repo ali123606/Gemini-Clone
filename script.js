@@ -9,8 +9,8 @@ let isResponseGenerating = false;
 let userMessage = null;
 
 // API configration
-const API_KEY = "AIzaSyB-5ThFRkda8DbQSKDgyGvOZSsHXPo_3O4";
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+const API_KEY = "AIzaSyCBEYo-v2zO-xuy2fQfoPiSa9cYaYvOd78";
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 const loadLocalStorage = () => {
   const isLightMode = localStorage.getItem("themeColor") === "light_mode";
